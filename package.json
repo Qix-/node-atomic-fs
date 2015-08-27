@@ -1,0 +1,33 @@
+{
+  "name": "atomic-fs",
+  "description": "Atomically perform file operations",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "atomic",
+    "fs",
+    "file",
+    "lock",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pretest": "xo",
+    "test": "mocha --full-trace --compilers coffee:coffee-script/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "qix-/node-atomic-fs",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1",
+    "xo": "^0.7.1"
+  },
+  "dependencies": {
+    "lockfile": "^1.0.1"
+  }
+}
